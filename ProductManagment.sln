@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApi", "ProductApi\ProductApi.csproj", "{3C17E2CA-BC66-4466-868D-75C5173533AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2059E2CA-77A4-4ABB-902F-DA50F1FDFD2A}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C17E2CA-BC66-4466-868D-75C5173533AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C17E2CA-BC66-4466-868D-75C5173533AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C17E2CA-BC66-4466-868D-75C5173533AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C17E2CA-BC66-4466-868D-75C5173533AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
