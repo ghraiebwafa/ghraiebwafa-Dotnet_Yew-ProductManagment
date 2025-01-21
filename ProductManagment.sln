@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		compose.yaml = compose.yaml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{57B49DBC-1439-4175-9F82-A7A6B0BB560A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApi", "AuthApi\AuthApi.csproj", "{B0B4FCAF-D44A-4014-9B19-EEFA2113045E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +21,13 @@ Global
 		{3C17E2CA-BC66-4466-868D-75C5173533AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C17E2CA-BC66-4466-868D-75C5173533AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C17E2CA-BC66-4466-868D-75C5173533AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B4FCAF-D44A-4014-9B19-EEFA2113045E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B4FCAF-D44A-4014-9B19-EEFA2113045E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B4FCAF-D44A-4014-9B19-EEFA2113045E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B4FCAF-D44A-4014-9B19-EEFA2113045E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C17E2CA-BC66-4466-868D-75C5173533AE} = {57B49DBC-1439-4175-9F82-A7A6B0BB560A}
+		{B0B4FCAF-D44A-4014-9B19-EEFA2113045E} = {57B49DBC-1439-4175-9F82-A7A6B0BB560A}
 	EndGlobalSection
 EndGlobal
